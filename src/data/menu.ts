@@ -81,13 +81,13 @@ export const menuItems: MenuItem[] = [
   {
     id: 'fusion-loaded-fries',
     categoryId: 'loaded-fries',
-    name: 'Fusion Loaded Fries',
+    name: 'Fusion Loaded Fries (Saucyy + Juicyy)',
     price: 129,
     description:
-      'A street-food mashup you did not expect. Loaded fries meet bold Indian flavours and crunchy toppings.',
+      'Saucy, juicy loaded fries layered with bold flavours, crunchy toppings and a generous drizzle.',
     image: '/images/menu/fusion-loaded-fries.jpg',
     imageAlt:
-      'Fusion Loaded Fries bowl with Doritos crunch, heavy orange sauce and multiple sauce drizzles',
+      'Fusion Loaded Fries with saucy fries, juicy toppings, orange and white sauce drizzles',
     badge: 'signature',
     isSignature: true,
   },

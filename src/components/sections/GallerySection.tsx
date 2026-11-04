@@ -32,7 +32,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     src: '/images/gallery/fusion-fries.jpg',
-    alt: 'Fusion Loaded Fries with Doritos crunch and bold sauces',
+    alt: 'Fusion Loaded Fries with saucy fries, juicy toppings, orange and white sauce drizzles',
     span: 'normal',
   },
   {
@@ -201,4 +201,3 @@ export function GallerySection() {
     </section>
   );
 }
-
