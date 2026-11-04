@@ -68,13 +68,13 @@ export const menuItems: MenuItem[] = [
   {
     id: 'paneer-loaded-fries',
     categoryId: 'loaded-fries',
-    name: 'Paneer Loaded Fries',
+    name: 'Paneer Loaded Fries (Crispyyy + Spicy)',
     price: 159,
     description:
-      'Generous chunks of paneer over crispy fries, drenched in sauces and fresh toppings. A meal, not just a snack.',
+      'Crispy paneer, golden fries, bold spicy sauces and fresh toppings in every loaded bite.',
     image: '/images/menu/paneer-loaded-fries.jpg',
     imageAlt:
-      'Paneer Loaded Fries in a bowl with golden cheese sauce, red sauce, paneer pieces and fresh toppings',
+      'Paneer Loaded Fries with crispy spicy paneer, golden fries, orange sauce, white sauce and fresh toppings',
     badge: 'signature',
     isSignature: true,
   },
@@ -130,4 +130,3 @@ export const menuItems: MenuItem[] = [
     badge: undefined,
   },
 ];
-
