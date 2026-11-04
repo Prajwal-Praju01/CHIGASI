@@ -1,0 +1,33 @@
+{
+  "name": "chigasi",
+  "version": "1.0.0",
+  "description": "CHIGASI (ಚಿಗಸಿ) - Loaded Bites | Official Restaurant Website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "npm run type-check",
+    "test": "npm run type-check",
+    "type-check": "tsc --noEmit",
+    "export": "next build"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
+    "next": "^16.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "qrcode": "^1.5.4",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^5"
+  }
+}

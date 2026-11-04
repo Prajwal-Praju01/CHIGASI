@@ -1,0 +1,133 @@
+import type { MenuCategory, MenuItem } from '@/types/menu';
+
+export const menuCategories: MenuCategory[] = [
+  {
+    id: 'fries',
+    name: 'Fries',
+    description: 'Classic and flavoured fries done right',
+    emoji: '🍟',
+  },
+  {
+    id: 'loaded-fries',
+    name: 'Loaded Fries',
+    description: "CHIGASI's signature loaded creations",
+    emoji: '🔥',
+  },
+  {
+    id: 'burgers',
+    name: 'Burgers',
+    description: 'Juicy paneer burgers packed with flavour',
+    emoji: '🍔',
+  },
+  {
+    id: 'snacks',
+    name: 'Snacks',
+    description: 'Perfect bites to share or savour solo',
+    emoji: '🧀',
+  },
+];
+
+export const menuItems: MenuItem[] = [
+  // --- FRIES ---
+  {
+    id: 'classic-fries',
+    categoryId: 'fries',
+    name: 'Classic Fries',
+    price: 59,
+    description: 'Crispy golden fries seasoned to perfection. Simple. Addictive. Essential.',
+    image: null,
+    imageAlt: 'Classic crispy golden fries',
+    badge: undefined,
+  },
+  {
+    id: 'peri-peri-fries',
+    categoryId: 'fries',
+    name: 'Peri Peri Fries',
+    price: 89,
+    description:
+      'Loaded with bold peri peri seasoning, drizzled with spicy sauce and a cool white mayo finish.',
+    image: '/images/menu/peri-peri-fries.jpg',
+    imageAlt: 'Peri Peri Fries loaded with orange sauce and white drizzle in a paper bowl',
+    badge: 'spicy',
+  },
+
+  // --- LOADED FRIES ---
+  {
+    id: 'chigasi-special-loaded-fries',
+    categoryId: 'loaded-fries',
+    name: 'CHIGASI Special Loaded Fries',
+    price: 139,
+    description:
+      "The original loaded fry that started it all. CHIGASI's most loved creation — sauced, topped and impossible to put down.",
+    image: '/images/menu/chigasi-special-loaded-fries.jpg',
+    imageAlt:
+      'CHIGASI Special Loaded Fries in a bowl held in front of the CHIGASI restaurant stall',
+    badge: 'bestseller',
+    isSignature: true,
+  },
+  {
+    id: 'paneer-loaded-fries',
+    categoryId: 'loaded-fries',
+    name: 'Paneer Loaded Fries',
+    price: 159,
+    description:
+      'Generous chunks of paneer over crispy fries, drenched in sauces and fresh toppings. A meal, not just a snack.',
+    image: '/images/menu/paneer-loaded-fries.jpg',
+    imageAlt:
+      'Paneer Loaded Fries in a bowl with golden cheese sauce, red sauce, paneer pieces and fresh toppings',
+    badge: 'signature',
+    isSignature: true,
+  },
+  {
+    id: 'fusion-loaded-fries',
+    categoryId: 'loaded-fries',
+    name: 'Fusion Loaded Fries',
+    price: 129,
+    description:
+      'A street-food mashup you did not expect. Loaded fries meet bold Indian flavours and crunchy toppings.',
+    image: '/images/menu/fusion-loaded-fries.jpg',
+    imageAlt:
+      'Fusion Loaded Fries bowl with Doritos crunch, heavy orange sauce and multiple sauce drizzles',
+    badge: 'signature',
+    isSignature: true,
+  },
+  {
+    id: 'desi-paneer-loaded-fries',
+    categoryId: 'loaded-fries',
+    name: 'Desi Paneer Loaded Fries',
+    price: 159,
+    description:
+      'Paneer loaded fries with a desi twist. Bold Indian-inspired sauces and toppings make every bite a flavour memory.',
+    image: null,
+    imageAlt: 'Desi Paneer Loaded Fries with Indian-style sauces and paneer',
+    badge: undefined,
+  },
+
+  // --- BURGERS ---
+  {
+    id: 'chilli-garlic-paneer-burger',
+    categoryId: 'burgers',
+    name: 'Chilli Garlic Paneer Burger',
+    price: 89,
+    description:
+      'Juicy paneer patty with fiery chilli garlic sauce, melted cheese and fresh fillings in a toasted sesame bun.',
+    image: '/images/menu/paneer-burger-1.jpg',
+    imageAlt: 'Chilli Garlic Paneer Burger with sesame bun held in hand at CHIGASI stall',
+    badge: 'bestseller',
+    isSignature: true,
+  },
+
+  // --- SNACKS ---
+  {
+    id: 'corn-cheese-nuggets',
+    categoryId: 'snacks',
+    name: 'Corn & Cheese Nuggets',
+    price: 70,
+    description:
+      'Golden nuggets packed with sweet corn and melted cheese. Crispy outside, gooey inside.',
+    image: null,
+    imageAlt: 'Corn and Cheese Nuggets golden and crispy',
+    badge: undefined,
+  },
+];
+
