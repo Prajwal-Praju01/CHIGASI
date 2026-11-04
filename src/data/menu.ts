@@ -35,7 +35,7 @@ export const menuItems: MenuItem[] = [
     name: 'Classic Fries',
     price: 59,
     description: 'Crispy golden fries seasoned to perfection. Simple. Addictive. Essential.',
-    image: null,
+    image: '/images/menu/classic-fries.png',
     imageAlt: 'Classic crispy golden fries',
     badge: undefined,
   },
@@ -125,7 +125,7 @@ export const menuItems: MenuItem[] = [
     price: 70,
     description:
       'Golden nuggets packed with sweet corn and melted cheese. Crispy outside, gooey inside.',
-    image: null,
+    image: '/images/menu/corn-cheese-nuggets.png',
     imageAlt: 'Corn and Cheese Nuggets golden and crispy',
     badge: undefined,
   },
