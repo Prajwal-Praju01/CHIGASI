@@ -69,7 +69,7 @@ export function HeroSection() {
         <div className="hero-grain absolute inset-0 opacity-30" aria-hidden="true" />
       </div>
 
-      <div className="relative z-10 container-site flex min-h-[min(860px,100svh)] flex-col justify-end pb-12 pt-28 sm:pb-16 md:pb-24">
+      <div className="relative z-10 container-site flex min-h-[min(860px,100svh)] flex-col justify-end pb-24 pt-28 sm:pb-20 md:pb-24">
         <div className="grid items-end gap-10 lg:grid-cols-[minmax(0,1fr)_260px]">
           <div className="max-w-3xl">
             <motion.div
