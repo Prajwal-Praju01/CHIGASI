@@ -55,13 +55,13 @@ export const menuItems: MenuItem[] = [
   {
     id: 'chigasi-special-loaded-fries',
     categoryId: 'loaded-fries',
-    name: 'CHIGASI Special Loaded Fries',
+    name: 'CHIGASI Special Loaded Fries (Crunchyy + Spicyyy)',
     price: 139,
     description:
-      "The original loaded fry that started it all. CHIGASI's most loved creation — sauced, topped and impossible to put down.",
+      "CHIGASI's signature loaded fries with a satisfying crunch, spicy sauces and bold toppings in every bite.",
     image: '/images/menu/chigasi-special-loaded-fries.jpg',
     imageAlt:
-      'CHIGASI Special Loaded Fries in a bowl held in front of the CHIGASI restaurant stall',
+      'CHIGASI Special Loaded Fries with crunchy toppings, spicy orange and white sauces, and branded bowl',
     badge: 'bestseller',
     isSignature: true,
   },

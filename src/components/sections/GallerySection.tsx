@@ -17,7 +17,7 @@ interface GalleryImage {
 const galleryImages: GalleryImage[] = [
   {
     src: '/images/gallery/chigasi-special.jpg',
-    alt: 'CHIGASI Special Loaded Fries held in front of the restaurant stall',
+    alt: 'CHIGASI Special Loaded Fries with crunchy toppings and spicy sauces',
     span: 'wide',
   },
   {
