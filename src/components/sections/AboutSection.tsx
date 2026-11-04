@@ -43,7 +43,7 @@ export function AboutSection() {
                 alt="CHIGASI Loaded Fries in front of the restaurant stall"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover object-center"
+                className="bg-brand-black object-contain object-center"
                 loading="lazy"
               />
               {/* Overlay */}

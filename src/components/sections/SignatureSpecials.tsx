@@ -34,7 +34,7 @@ export function SignatureSpecials() {
         <div className="grid gap-4 lg:grid-cols-[1.25fr_.75fr]">
           {feature && (
             <motion.article initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="group relative min-h-[420px] overflow-hidden bg-brand-surface sm:min-h-[560px]">
-              {feature.image && <Image src={feature.image} alt={feature.imageAlt} fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-cover object-[50%_100%] transition-transform duration-700 group-hover:scale-105" />}
+              {feature.image && <Image src={feature.image} alt={feature.imageAlt} fill sizes="(max-width: 1024px) 100vw, 60vw" className="bg-brand-black object-contain object-center transition-transform duration-700 group-hover:scale-[1.02]" />}
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/10 to-transparent" />
               <div className="absolute left-5 top-5 flex items-center gap-2">
                 <span className="badge badge-gold">Bestseller</span>
@@ -44,7 +44,7 @@ export function SignatureSpecials() {
                 <div className="flex items-end justify-between gap-4">
                   <div>
                     <p className="eyebrow mb-2 text-brand-gold">CHIGASI original</p>
-                    <h3 className="max-w-md font-display text-4xl leading-[.92] tracking-wide text-white sm:text-6xl">{feature.name}</h3>
+                    <h3 className="max-w-[min(90%,30rem)] font-display text-3xl leading-[.94] tracking-wide text-white sm:text-5xl lg:text-4xl xl:text-5xl">{feature.name}</h3>
                   </div>
                   <span className="font-display text-3xl text-brand-gold">{formatPrice(feature.price)}</span>
                 </div>
